@@ -1,0 +1,145 @@
+html {
+    
+    background-image: url(fondorepet.jpg);
+    background-repeat: repeat;
+}
+
+body {
+background-image: url("fondo.png");
+    background-repeat: repeat;
+    background-position: 1000px 1000px;
+	
+    width:1250px;
+    height:auto;
+    margin:50px;
+    text-align:center;
+    font-family:arial;
+    
+}
+head{
+    float: right;
+    width: 500px;
+    height:600px;
+    background:#96FF33;
+    
+}
+
+header{
+    
+    width:1250px;
+    height:100px;
+    background-image:url(city.jpg);
+    background-position: center;
+    text-align:center;
+    line-height: 60px;
+    
+}
+
+section{
+    float:right;
+    width:1050px;
+    height:auto;
+    background:#6668;
+    -webkit-transform: translatey(0%);
+    -ms-transform: translatrey(0%);
+    transform: translatey(0%);
+}
+
+article{ 
+    text-decoration-color: aliceblue;
+
+    width:1010px;
+    height:auto;
+    margin:0px;
+    background-image:url(fondo2.jpg);
+    position:static;
+    top:50%;
+    -webkit-transform: translatey(0%);
+    -ms-transform: translatrey(0%);
+    transform: translatey(05%);
+  
+}
+
+nav{
+    width:1250px;
+    height:auto;
+    text-align:center;
+    background-image:url(fondo2.jpg);
+    background-position: center;
+    text-align: center;
+    -webkit-transform: translatey(0%);
+    -ms-transform: translatrey(0%);
+    transform: translatey(0%);
+}
+
+aside{
+    position:left;
+    width:250px;
+    height:120px;
+    background:#ff08;
+    
+}
+
+footer{
+    
+    float:left;
+    width:1250px;
+    height:150px;
+    background-image:url(consola.jpg);
+    background-position: center;
+    -webkit-transform: translatey(0%);
+    -ms-transform: translatrey(0%);
+    transform: translatey(0%);
+}
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
+.tituloPrincipal {
+    color: black;
+    font-family: Segoe UI Light;
+    text-align: center;
+}
+
+
+
+#about {
+    font-family: serif;
+    color: blueviolet;
+    text-align: left;
+}
+
+
+
+
+
+#articulotabla {
+    width:1010px;
+    height:50px;
+    margin:20px;
+    background:#5E5E6F;
+    position:static;
+    top:50%;
+    -webkit-transform: translatey(0%);
+    -ms-transform: translatrey(0%);
+    transform: translatey(05%);
+}
+
+
+h1 {
+    color: whitesmoke;
+    font-family: Segoe UI Light;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    border-color: chartreuse;
+}
